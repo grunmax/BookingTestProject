@@ -119,7 +119,7 @@ public class BookingTest {
 
     @Step("Do search")
     public void doSearch() throws InterruptedException {
-        WebElement button = Driver.driver.findElement(By.cssSelector(BookingConstants.SEARCH_BUTTON_CSS));
+        WebElement button = Driver.driver.findElement(By.xpath(BookingConstants.SEARCH_BUTTON_XPATH));
         button.click();
         Thread.sleep(MINWAIT);
     }

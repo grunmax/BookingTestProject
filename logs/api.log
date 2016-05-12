@@ -1,0 +1,162 @@
+15:16:29.472 Initializing concepts cache with 0 concepts
+15:16:29.474 Watching directory: C:\Javaspace\BookingTestProject\specs
+15:16:29.474 Found 2 files
+15:16:29.474 Initializing specs cache with 1 specs
+15:16:29.474 Adding specs from C:\Javaspace\BookingTestProject\specs\booking.spec
+15:16:29.474 Initializing steps cache with 13 steps
+15:16:39.174 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set destination to <New York City>" hasInlineTable:false > 
+15:16:39.174 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set destination to {}" parameterizedStepValue:"Set destination to <New York City>" parameters:"New York City" > > 
+15:16:39.180 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The currency title should show <US$> as result" hasInlineTable:false > 
+15:16:39.181 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The currency title should show {} as result" parameterizedStepValue:"The currency title should show <US$> as result" parameters:"US$" > > 
+15:16:39.181 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Choose EN-US language" hasInlineTable:false > 
+15:16:39.181 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Choose EN-US language" parameterizedStepValue:"Choose EN-US language" > > 
+15:16:39.182 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Choose USD currency" hasInlineTable:false > 
+15:16:39.182 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Choose USD currency" parameterizedStepValue:"Choose USD currency" > > 
+15:16:39.183 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set Check-Out date to < 7> of <September 2016>" hasInlineTable:false > 
+15:16:39.183 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set Check-Out date to {} of {}" parameterizedStepValue:"Set Check-Out date to < 7> of <September 2016>" parameters:" 7" parameters:"September 2016" > > 
+15:16:39.183 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set Adults to <1>" hasInlineTable:false > 
+15:16:39.183 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set Adults to {}" parameterizedStepValue:"Set Adults to <1>" parameters:"1" > > 
+15:16:39.184 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Choose Traveling for Work" hasInlineTable:false > 
+15:16:39.184 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Choose Traveling for Work" parameterizedStepValue:"Choose Traveling for Work" > > 
+15:16:39.184 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to <http://www.booking.com>" hasInlineTable:false > 
+15:16:39.184 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <http://www.booking.com>" parameters:"http://www.booking.com" > > 
+15:16:39.185 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Check search for <New York City>" hasInlineTable:false > 
+15:16:39.185 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Check search for {}" parameterizedStepValue:"Check search for <New York City>" parameters:"New York City" > > 
+15:16:39.185 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Do search" hasInlineTable:false > 
+15:16:39.185 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Do search" parameterizedStepValue:"Do search" > > 
+15:16:39.186 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set Check-In date to < 3> of <September 2016>" hasInlineTable:false > 
+15:16:39.186 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set Check-In date to {} of {}" parameterizedStepValue:"Set Check-In date to < 3> of <September 2016>" parameters:" 3" parameters:"September 2016" > > 
+15:16:39.187 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set Rooms to <1>" hasInlineTable:false > 
+15:16:39.187 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set Rooms to {}" parameterizedStepValue:"Set Rooms to <1>" parameters:"1" > > 
+15:16:39.187 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Check EN-US language" hasInlineTable:false > 
+15:16:39.187 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Check EN-US language" parameterizedStepValue:"Check EN-US language" > > 
+15:26:52.355 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Check search for \"New York City\"" hasInlineTable:false > 
+15:26:52.356 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Check search for {}" parameterizedStepValue:"Check search for <New York City>" parameters:"New York City" > > 
+15:26:52.359 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to \"http://www.booking.com\"" hasInlineTable:false > 
+15:26:52.359 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <http://www.booking.com>" parameters:"http://www.booking.com" > > 
+15:26:52.360 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Check search for \"New York City\"" hasInlineTable:false > 
+15:26:52.360 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Check search for {}" parameterizedStepValue:"Check search for <New York City>" parameters:"New York City" > > 
+15:26:52.379 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to <http://www.booking.com>" hasInlineTable:false > 
+15:26:52.379 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <http://www.booking.com>" parameters:"http://www.booking.com" > > 
+15:26:52.379 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to <http://www.booking.com>" hasInlineTable:false > 
+15:26:52.379 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <http://www.booking.com>" parameters:"http://www.booking.com" > > 
+15:26:52.380 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to <http://www.booking.com>" hasInlineTable:false > 
+15:26:52.380 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <http://www.booking.com>" parameters:"http://www.booking.com" > > 
+15:26:52.380 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Choose EN-US language" hasInlineTable:false > 
+15:26:52.380 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Choose EN-US language" parameterizedStepValue:"Choose EN-US language" > > 
+15:26:52.380 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Choose EN-US language" hasInlineTable:false > 
+15:26:52.380 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Choose EN-US language" parameterizedStepValue:"Choose EN-US language" > > 
+15:26:52.381 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Choose EN-US language" hasInlineTable:false > 
+15:26:52.381 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Choose EN-US language" parameterizedStepValue:"Choose EN-US language" > > 
+15:26:52.381 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Check EN-US language" hasInlineTable:false > 
+15:26:52.381 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Check EN-US language" parameterizedStepValue:"Check EN-US language" > > 
+15:26:52.381 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Check EN-US language" hasInlineTable:false > 
+15:26:52.381 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Check EN-US language" parameterizedStepValue:"Check EN-US language" > > 
+15:26:52.381 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Choose USD currency" hasInlineTable:false > 
+15:26:52.382 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Choose USD currency" parameterizedStepValue:"Choose USD currency" > > 
+15:26:52.382 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Choose USD currency" hasInlineTable:false > 
+15:26:52.382 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Choose USD currency" parameterizedStepValue:"Choose USD currency" > > 
+15:26:52.382 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The currency title should show <US$> as result" hasInlineTable:false > 
+15:26:52.382 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The currency title should show {} as result" parameterizedStepValue:"The currency title should show <US$> as result" parameters:"US$" > > 
+15:26:52.382 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The currency title should show <US$> as result" hasInlineTable:false > 
+15:26:52.383 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The currency title should show {} as result" parameterizedStepValue:"The currency title should show <US$> as result" parameters:"US$" > > 
+15:26:52.383 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set destination to <New York City>" hasInlineTable:false > 
+15:26:52.383 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set destination to {}" parameterizedStepValue:"Set destination to <New York City>" parameters:"New York City" > > 
+15:26:52.383 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set destination to <New York City>" hasInlineTable:false > 
+15:26:52.383 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set destination to {}" parameterizedStepValue:"Set destination to <New York City>" parameters:"New York City" > > 
+15:26:52.383 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set Check-In date to < 3> of <September 2016>" hasInlineTable:false > 
+15:26:52.384 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set Check-In date to {} of {}" parameterizedStepValue:"Set Check-In date to < 3> of <September 2016>" parameters:" 3" parameters:"September 2016" > > 
+15:26:52.384 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The currency title should show \"US$\" as result" hasInlineTable:false > 
+15:26:52.384 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The currency title should show {} as result" parameterizedStepValue:"The currency title should show <US$> as result" parameters:"US$" > > 
+15:26:52.386 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set Check-Out date to < 7> of <September 2016>" hasInlineTable:false > 
+15:26:52.386 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set Check-Out date to {} of {}" parameterizedStepValue:"Set Check-Out date to < 7> of <September 2016>" parameters:" 7" parameters:"September 2016" > > 
+15:26:52.386 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set Check-In date to < 3> of <September 2016>" hasInlineTable:false > 
+15:26:52.387 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set Check-In date to {} of {}" parameterizedStepValue:"Set Check-In date to < 3> of <September 2016>" parameters:" 3" parameters:"September 2016" > > 
+15:26:52.389 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Choose Traveling for Work" hasInlineTable:false > 
+15:26:52.389 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Choose Traveling for Work" parameterizedStepValue:"Choose Traveling for Work" > > 
+15:26:52.389 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set destination to \"New York City\"" hasInlineTable:false > 
+15:26:52.389 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set destination to {}" parameterizedStepValue:"Set destination to <New York City>" parameters:"New York City" > > 
+15:26:52.390 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set Rooms to <1>" hasInlineTable:false > 
+15:26:52.390 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set Rooms to {}" parameterizedStepValue:"Set Rooms to <1>" parameters:"1" > > 
+15:26:52.390 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Choose Traveling for Work" hasInlineTable:false > 
+15:26:52.390 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Choose Traveling for Work" parameterizedStepValue:"Choose Traveling for Work" > > 
+15:26:52.390 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set Adults to <1>" hasInlineTable:false > 
+15:26:52.390 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set Adults to {}" parameterizedStepValue:"Set Adults to <1>" parameters:"1" > > 
+15:26:52.391 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set Adults to <1>" hasInlineTable:false > 
+15:26:52.391 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set Adults to {}" parameterizedStepValue:"Set Adults to <1>" parameters:"1" > > 
+15:26:52.391 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Do search" hasInlineTable:false > 
+15:26:52.391 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Do search" parameterizedStepValue:"Do search" > > 
+15:26:52.391 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set Check-In date to \" 3\" of \"September 2016\"" hasInlineTable:false > 
+15:26:52.391 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set Check-In date to {} of {}" parameterizedStepValue:"Set Check-In date to < 3> of <September 2016>" parameters:" 3" parameters:"September 2016" > > 
+15:26:52.391 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Check search for <New York City>" hasInlineTable:false > 
+15:26:52.392 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Check search for {}" parameterizedStepValue:"Check search for <New York City>" parameters:"New York City" > > 
+15:26:52.392 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Do search" hasInlineTable:false > 
+15:26:52.392 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Do search" parameterizedStepValue:"Do search" > > 
+15:26:52.393 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set Check-Out date to \" 7\" of \"September 2016\"" hasInlineTable:false > 
+15:26:52.393 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set Check-Out date to {} of {}" parameterizedStepValue:"Set Check-Out date to < 7> of <September 2016>" parameters:" 7" parameters:"September 2016" > > 
+15:26:52.396 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set Rooms to \"1\"" hasInlineTable:false > 
+15:26:52.396 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set Rooms to {}" parameterizedStepValue:"Set Rooms to <1>" parameters:"1" > > 
+15:26:52.398 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set Adults to \"1\"" hasInlineTable:false > 
+15:26:52.398 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set Adults to {}" parameterizedStepValue:"Set Adults to <1>" parameters:"1" > > 
+ for <New York City>" hasInlineTable:false > 
+15:25:57.744 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Check search for {}" parameterizedStepValue:"Check search for <New York City>" parameters:"New York City" > > 
+15:25:57.745 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Do search" hasInlineTable:false > 
+15:25:57.745 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Do search" parameterizedStepValue:"Do search" > > 
+15:25:57.745 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set Check-In date to < 3> of <September 2016>" hasInlineTable:false > 
+15:25:57.745 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set Check-In date to {} of {}" parameterizedStepValue:"Set Check-In date to < 3> of <September 2016>" parameters:" 3" parameters:"September 2016" > > 
+15:25:57.746 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set Rooms to <1>" hasInlineTable:false > 
+15:25:57.746 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set Rooms to {}" parameterizedStepValue:"Set Rooms to <1>" parameters:"1" > > 
+15:25:57.746 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Check EN-US language" hasInlineTable:false > 
+15:25:57.746 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Check EN-US language" parameterizedStepValue:"Check EN-US language" > > 
+15:27:36.006 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set destination to <New York City>" hasInlineTable:false > 
+15:27:36.006 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set destination to {}" parameterizedStepValue:"Set destination to <New York City>" parameters:"New York City" > > 
+15:27:36.012 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The currency title should show <US$> as result" hasInlineTable:false > 
+15:27:36.012 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The currency title should show {} as result" parameterizedStepValue:"The currency title should show <US$> as result" parameters:"US$" > > 
+15:27:36.013 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Choose EN-US language" hasInlineTable:false > 
+15:27:36.013 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Choose EN-US language" parameterizedStepValue:"Choose EN-US language" > > 
+15:27:36.013 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Choose USD currency" hasInlineTable:false > 
+15:27:36.013 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Choose USD currency" parameterizedStepValue:"Choose USD currency" > > 
+15:27:36.014 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set Check-Out date to < 7> of <September 2016>" hasInlineTable:false > 
+15:27:36.014 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set Check-Out date to {} of {}" parameterizedStepValue:"Set Check-Out date to < 7> of <September 2016>" parameters:" 7" parameters:"September 2016" > > 
+15:27:36.014 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set Adults to <1>" hasInlineTable:false > 
+15:27:36.015 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set Adults to {}" parameterizedStepValue:"Set Adults to <1>" parameters:"1" > > 
+15:27:36.015 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Choose Traveling for Work" hasInlineTable:false > 
+15:27:36.015 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Choose Traveling for Work" parameterizedStepValue:"Choose Traveling for Work" > > 
+15:27:36.015 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to <http://www.booking.com>" hasInlineTable:false > 
+15:27:36.016 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <http://www.booking.com>" parameters:"http://www.booking.com" > > 
+15:27:36.016 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Check search for <New York City>" hasInlineTable:false > 
+15:27:36.016 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Check search for {}" parameterizedStepValue:"Check search for <New York City>" parameters:"New York City" > > 
+15:27:36.017 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Do search" hasInlineTable:false > 
+15:27:36.017 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Do search" parameterizedStepValue:"Do search" > > 
+15:27:36.017 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set Check-In date to < 3> of <September 2016>" hasInlineTable:false > 
+15:27:36.017 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set Check-In date to {} of {}" parameterizedStepValue:"Set Check-In date to < 3> of <September 2016>" parameters:" 3" parameters:"September 2016" > > 
+15:27:36.018 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set Rooms to <1>" hasInlineTable:false > 
+15:27:36.018 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set Rooms to {}" parameterizedStepValue:"Set Rooms to <1>" parameters:"1" > > 
+15:27:36.018 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Check EN-US language" hasInlineTable:false > 
+15:27:36.018 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Check EN-US language" parameterizedStepValue:"Check EN-US language" > > 
+15:29:02.451 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set destination to <New York City>" hasInlineTable:false > 
+15:29:02.451 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set destination to {}" parameterizedStepValue:"Set destination to <New York City>" parameters:"New York City" > > 
+15:29:02.457 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The currency title should show <US$> as result" hasInlineTable:false > 
+15:29:02.458 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The currency title should show {} as result" parameterizedStepValue:"The currency title should show <US$> as result" parameters:"US$" > > 
+15:29:02.458 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Choose EN-US language" hasInlineTable:false > 
+15:29:02.458 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Choose EN-US language" parameterizedStepValue:"Choose EN-US language" > > 
+15:29:02.459 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Choose USD currency" hasInlineTable:false > 
+15:29:02.459 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Choose USD currency" parameterizedStepValue:"Choose USD currency" > > 
+15:29:02.459 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set Check-Out date to < 7> of <September 2016>" hasInlineTable:false > 
+15:29:02.459 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set Check-Out date to {} of {}" parameterizedStepValue:"Set Check-Out date to < 7> of <September 2016>" parameters:" 7" parameters:"September 2016" > > 
+15:29:02.460 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set Adults to <1>" hasInlineTable:false > 
+15:29:02.460 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set Adults to {}" parameterizedStepValue:"Set Adults to <1>" parameters:"1" > > 
+15:29:02.460 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Choose Traveling for Work" hasInlineTable:false > 
+15:29:02.460 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Choose Traveling for Work" parameterizedStepValue:"Choose Traveling for Work" > > 
+15:29:02.461 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to <http://www.booking.com>" hasInlineTable:false > 
+15:29:02.461 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <http://www.booking.com>" parameters:"http://www.booking.com" > > 
+15:29:02.461 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Check search for <New York City>" hasInlineTable:false > 
+15:29:02.461 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Check search for {}" parameterizedStepValue:"Check search for <New York City>" parameters:"New York City" > > 
+15:29:02.462 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Do search" hasInlineTable:false > 
+15:29:02.462 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Do search" parameterizedStepValue:"Do search" > > 
+15:29:02.462 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set Check-In date to < 3> of <September 2016>" hasInlineTable:false > 
+15:29:02.463 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set Check-In date to {} of {}" parameterizedStepValue:"Set Check-In date to < 3> of <September 2016>" parameters:" 3" parameters:"September 2016" > > 
+15:29:02.463 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Set Rooms to <1>" hasInlineTable:false > 
+15:29:02.463 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Set Rooms to {}" parameterizedStepValue:"Set Rooms to <1>" parameters:"1" > > 
+15:29:02.463 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Check EN-US language" hasInlineTable:false > 
+15:29:02.463 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Check EN-US language" parameterizedStepValue:"Check EN-US language" > > 

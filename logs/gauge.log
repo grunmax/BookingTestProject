@@ -1,0 +1,243 @@
+15:16:30.129 Got a kill message. Killing runner.
+15:16:34.131 Killing runner with PID:9100 forcefully
+15:17:17.601 Checking updates...
+15:17:25.414 # Technical test Specification
+15:17:25.415 ## Check Booking.com simple search
+15:17:25.416 * Navigate to "http://www.booking.com"
+15:17:30.733 * Choose EN-US language
+15:17:33.277 * Check EN-US language
+15:17:33.730 * Choose USD currency
+15:17:35.752 * The currency title should show "US$" as result
+15:17:36.229 * Set destination to "New York City"
+15:17:38.488 * Set Check-In date to " 3" of "September 2016"
+15:17:41.686 * Set Check-Out date to " 7" of "September 2016"
+15:17:44.908 * Choose Traveling for Work
+15:17:45.010 * Set Rooms to "1"
+15:17:45.117 * Set Adults to "1"
+15:17:45.355 * Do search
+15:17:55.750 
+Failed Step: Do search
+15:17:55.750 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".sb-searchbox__button"}
+  (Session info: chrome=50.0.2661.94)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'INSPIRO-10x', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+*** Element info: {Using=css selector, value=.sb-searchbox__button}
+Session ID: 4c73977f66ccd82c4e5c2de95be6d92e
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=WIN8_1, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\MAXMAK~1\AppData\Local\Temp\scoped_dir6840_18119, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=50.0.2661.94, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+15:17:55.750 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:482)
+org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+BookingTest.doSearch(BookingTest.java:122)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:96)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+15:17:57.167 Plugin [Html Report] with pid [4724] has exited
+15:17:57.568 Specifications:	1 executed	0 passed	1 failed	0 skipped
+15:17:57.568 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+15:17:57.568 
+Total time taken: 34.822s
+15:18:43.386 Checking updates...
+15:19:35.252 Error Message: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+48.png","icon64URL":null,"defaultLocale":{"name":"Avast SafePrice","description":"Safe shopping extension","creator":"AVAST Software","homepageURL":"http://www.avast.com/"},"visible":true,"active":false,"userDisabled":true,"appDisabled":false,"descriptor":"C:\\Program Files\\AVAST Software\\Avast\\SafePrice\\FF","installDate":1462892971669,"updateDate":1462892971669,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":1877359,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"38.0a1","maxVersion":"43.0"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":2,"seen":true}
+1463055529986	DeferredSave.extensions.json	DEBUG	Save changes
+1463055529986	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1463055529987	addons.xpi-utils	DEBUG	Updating add-on states
+1463055529988	addons.xpi-utils	DEBUG	Writing add-ons list
+1463055529992	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1463055529994	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 0.1
+1463055530018	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1463055530018	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1463055530018	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1463055530018	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1463055530019	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1463055530019	addons.manager	DEBUG	Starting provider: GMPProvider
+1463055530027	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1463055530027	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1463055530027	addons.manager	DEBUG	Starting provider: PluginProvider
+1463055530028	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1463055530028	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1463055530028	addons.manager	DEBUG	Completed startup sequence
+1463055530327	DeferredSave.extensions.json	DEBUG	Starting timer
+1463055530366	DeferredSave.extensions.json	DEBUG	Starting write
+1463055530474	addons.repository	DEBUG	No addons.json found.
+1463055530475	DeferredSave.addons.json	DEBUG	Save changes
+1463055530477	DeferredSave.addons.json	DEBUG	Starting timer
+1463055530521	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1463055530521	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1463055530521	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1463055530529	DeferredSave.addons.json	DEBUG	Starting write
+1463055530531	DeferredSave.extensions.json	DEBUG	Write succeeded
+1463055530595	DeferredSave.addons.json	DEBUG	Write succeeded
+1463055531645	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1463055531645	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1463055531645	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1463055559924	addons.xpi	DEBUG	Calling bootstrap method shutdown on loop@mozilla.org version 0.1
+1463055560043	addons.manager	DEBUG	shutdown
+1463055560044	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1463055560044	addons.xpi	DEBUG	shutdown
+1463055560044	addons.xpi-utils	DEBUG	shutdown
+1463055560045	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1463055560045	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1463055560047	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1463055560048	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1463055560049	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
+1463055560052	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1463055560057	addons.manager	DEBUG	Async provider shutdown done
+
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'INSPIRO-10x', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Driver info: driver.version: Driver
+15:19:35.253 Stacktrace: 
+org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:135)
+org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:117)
+org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)
+org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+DriverFactory.getDriver(DriverFactory.java:27)
+Driver.initializeDriver(Driver.java:18)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:98)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:84)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:41)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:55)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:26)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+15:19:35.669 Error Message: java.lang.NullPointerException
+15:19:35.669 Stacktrace: 
+Driver.closeDriver(Driver.java:25)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:98)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:84)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:41)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:55)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:26)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+15:19:35.773 Plugin [Html Report] with pid [7440] has exited
+15:19:36.478 Specifications:	0 executed	0 passed	0 failed	0 skipped
+15:19:36.478 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+15:19:36.478 
+Total time taken: 47.985s
+15:25:53.470 Checking updates...
+15:26:25.029 Error Message: Connection closed [127.0.0.1:3808] cause: read tcp 127.0.0.1:3802->127.0.0.1:3808: wsarecv: An existing connection was forcibly closed by the remote host.
+15:26:25.029 Stacktrace: 
+15:26:25.029 Error Message: write tcp 127.0.0.1:3802->127.0.0.1:3808: use of closed network connection
+15:26:25.029 Stacktrace: 
+15:26:25.029 Unable to connect to plugin Html Report 2.1.0. proto: required field "SuiteExecutionResult.SuiteResult.PreHookFailure.StackTrace" not set
+15:26:25.029 Killing Plugin Html Report 2.1.0
+15:27:31.735 Checking updates...
+15:27:39.138 # Technical test Specification
+15:27:39.139 ## Check Booking.com simple search
+15:27:39.140 * Navigate to "http://www.booking.com"
+15:27:44.464 * Choose EN-US language
+15:27:46.683 * Check EN-US language
+15:27:47.166 * Choose USD currency
+15:27:49.414 * The currency title should show "US$" as result
+15:27:49.928 * Set destination to "New York City"
+15:27:52.207 * Set Check-In date to " 3" of "September 2016"
+15:27:55.340 * Set Check-Out date to " 7" of "September 2016"
+15:27:58.714 * Choose Traveling for Work
+15:27:58.820 * Set Rooms to "1"
+15:27:58.926 * Set Adults to "1"
+15:27:59.090 * Do search
+15:28:09.758 
+Failed Step: Do search
+15:28:09.758 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".sb-searchbox__button"}
+  (Session info: chrome=50.0.2661.94)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'INSPIRO-10x', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+*** Element info: {Using=css selector, value=.sb-searchbox__button}
+Session ID: fd249b553524e78c6af247122f124e4f
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=WIN8_1, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\MAXMAK~1\AppData\Local\Temp\scoped_dir8036_28638, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=50.0.2661.94, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+15:28:09.758 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:482)
+org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+BookingTest.doSearch(BookingTest.java:122)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:96)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+15:28:11.179 Plugin [Html Report] with pid [4660] has exited
+15:28:11.581 Specifications:	1 executed	0 passed	1 failed	0 skipped
+15:28:11.581 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+15:28:11.581 
+Total time taken: 34.958s
+15:28:58.136 Checking updates...
+15:29:05.499 # Technical test Specification
+15:29:05.500 ## Check Booking.com simple search
+15:29:05.500 * Navigate to "http://www.booking.com"
+15:29:10.679 * Choose EN-US language
+15:29:12.967 * Check EN-US language
+15:29:13.455 * Choose USD currency
+15:29:15.510 * The currency title should show "US$" as result
+15:29:15.987 * Set destination to "New York City"
+15:29:18.266 * Set Check-In date to " 3" of "September 2016"
+15:29:21.430 * Set Check-Out date to " 7" of "September 2016"
+15:29:24.588 * Choose Traveling for Work
+15:29:24.702 * Set Rooms to "1"
+15:29:24.814 * Set Adults to "1"
+15:29:24.994 * Do search
+15:29:32.039 * Check search for "New York City"
+15:29:34.779 Plugin [Html Report] with pid [2572] has exited
+15:29:35.081 Specifications:	1 executed	1 passed	0 failed	0 skipped
+15:29:35.081 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+15:29:35.081 
+Total time taken: 32.118s
