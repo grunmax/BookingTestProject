@@ -41,12 +41,9 @@ Check Booking.com simple search
 Please use correct path for your WebDriver in /env/default/default.properties
 
 ### Run
-/specs/booking.spec
+gauge /specs/booking.spec
 
 ### Result
 Html result available in /reports/html-reports/index.html
 
 _Tested only with Chrome Webdriver_
-
-For IntelliJ Idea settings I recommend
-[10 minutes tutorial to Gauge](https://github.com/getgauge/gauge/wiki/Getting-Started-in-3-Steps)
