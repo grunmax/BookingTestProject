@@ -23,6 +23,9 @@ public class BookingConstants {
     public static final String CALENDARS_MONTH_CLASS = "c2-month-header-monthname";
     public static final String GET_DAYS_XPATH = "//table[@class='c2-month-table'][descendant::th[@class='c2-month-header-monthname'][text()='%s']]//span[@class='c2-day-inner'][normalize-space(text())!='']";
 
+    // Traveling for
+    public static final String TRAVELING_FOR_CLASS = "b-booker-type__input_business-booker";
+
     //Rooms
     public static final String ROOMS_NAME = "no_rooms";
 

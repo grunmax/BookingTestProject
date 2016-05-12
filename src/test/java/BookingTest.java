@@ -101,7 +101,7 @@ public class BookingTest {
 
     @Step("Choose Traveling for Work")
     public void chooseTravelWork() {
-        WebElement radioWork = Driver.driver.findElement(By.className("b-booker-type__input_business-booker"));
+        WebElement radioWork = Driver.driver.findElement(By.className(BookingConstants.TRAVELING_FOR_CLASS));
         radioWork.click();
     }
 
