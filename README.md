@@ -28,3 +28,5 @@ Please use correct path for your WebDriver in /env/default/default.properties
 
 ### Result
 Html result available in /reports/html-reports/index.html
+
+_Tested only with Chrome Webdriver_
