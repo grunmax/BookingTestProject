@@ -13,7 +13,7 @@ Scenario:
 ```
 
 ### Requirements
-* Gauge framework http://getgauge.io/ with plugins "java" and "html-report"
+* [Gauge framework](http://getgauge.io/) with plugins "java" and "html-report"
 * Maven with Selenium libs
 * JDK 6+
 
@@ -47,3 +47,6 @@ Please use correct path for your WebDriver in /env/default/default.properties
 Html result available in /reports/html-reports/index.html
 
 _Tested only with Chrome Webdriver_
+
+For IntelliJ Idea settings I recommend
+[10 minutes tutorial to Gauge](https://github.com/getgauge/gauge/wiki/Getting-Started-in-3-Steps)
