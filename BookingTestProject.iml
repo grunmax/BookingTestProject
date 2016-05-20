@@ -59,5 +59,7 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.webbitserver:webbit:0.4.14" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.netty:netty:3.5.2.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.seleniumhq.selenium:selenium-leg-rc:2.48.2" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.19" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-simple:1.7.19" level="project" />
   </component>
 </module>
