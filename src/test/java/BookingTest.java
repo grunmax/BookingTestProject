@@ -5,17 +5,10 @@ import com.thoughtworks.gauge.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.OutputType;
 
 import static org.junit.Assert.assertEquals;
 import java.util.Calendar;
 import java.util.List;
-import java.util.Date;
-import java.util.TimeZone;
-import java.io.File;
-import java.text.SimpleDateFormat;
-import org.apache.commons.io.FileUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -37,54 +30,39 @@ public class BookingTest {
     private static final String LANG_ATTRIB_DATA_US = "ZOVLAFFHJCdCEaXCfAOBRUDTbfZZbHe";
 
     //Currency
-    public static final By CURRENCY_BUTTON_CSS = By.cssSelector("#user_form .user_center_nav .uc_currency a.popover_trigger");
-    public static final By CURRENCY_BUTTON_IMG_CSS = By.cssSelector("#user_form .user_center_nav .uc_language a.popover_trigger img");
+    private static final By CURRENCY_BUTTON_CSS = By.cssSelector("#user_form .user_center_nav .uc_currency a.popover_trigger");
+    private static final By CURRENCY_BUTTON_IMG_CSS = By.cssSelector("#user_form .user_center_nav .uc_language a.popover_trigger img");
 
-    public static final By CURRENCY_USD_CLASS = By.className("currency_USD");
+    private static final By CURRENCY_USD_CLASS = By.className("currency_USD");
 
     //Destination
-    public static final By DESTINATION_ID = By.id("ss");
-    public static final By DESTINATION_AUTOCOMPLETE_CLASS = By.className("c-autocomplete__item");
+    private static final By DESTINATION_ID = By.id("ss");
+    private static final By DESTINATION_AUTOCOMPLETE_CLASS = By.className("c-autocomplete__item");
 
     // Calendar
-    public static final By CALENDARS_CLASS = By.className("b-datepicker");
-    public static final By CALENDARS_FURTHER_CLASS = By.className("c2-button-further");
-    public static final By CALENDARS_MONTH_CLASS = By.className("c2-month-header-monthname");
-    public static final String GET_DAYS_XPATH = "//table[@class='c2-month-table'][descendant::th[@class='c2-month-header-monthname'][text()='%s']]//span[@class='c2-day-inner'][normalize-space(text())!='']";
+    private static final By CALENDARS_CLASS = By.className("b-datepicker");
+    private static final By CALENDARS_FURTHER_CLASS = By.className("c2-button-further");
+    private static final By CALENDARS_MONTH_CLASS = By.className("c2-month-header-monthname");
+    private static final String GET_DAYS_XPATH = "//table[@class='c2-month-table'][descendant::th[@class='c2-month-header-monthname'][text()='%s']]//span[@class='c2-day-inner'][normalize-space(text())!='']";
 
     // Traveling for
-    public static final By TRAVELING_FOR_CLASS = By.className("b-booker-type__input_business-booker");
+    private static final By TRAVELING_FOR_CLASS = By.className("b-booker-type__input_business-booker");
 
     //Rooms
-    public static final By ROOMS_NAME = By.name("no_rooms");
+    private static final By ROOMS_NAME = By.name("no_rooms");
 
     //Adults
-    public static final By ADULTS_NAME = By.name("group_adults");
+    private static final By ADULTS_NAME = By.name("group_adults");
 
     // Search button
-    public static final By SEARCH_BUTTON_XPATH = By.xpath("//button[@class='sb-searchbox__button  ']");
-    public static final By UP_XPATH = By.xpath("./..");
-    public static final By SEARCH_BUTTON_CSS = By.cssSelector(".sb-searchbox__button");
-    public static final By SEARCH_BUTTON_CLASS = By.className("b-searchbox-button_legacy");
-    public static final By SEARCH_TEXT_CLASS = By.className("b-button__text");
+    private static final By SEARCH_BUTTON_XPATH = By.xpath("//button[@class='sb-searchbox__button  ']");
+    private static final By UP_XPATH = By.xpath("./..");
+    private static final By SEARCH_BUTTON_CSS = By.cssSelector(".sb-searchbox__button");
+    private static final By SEARCH_BUTTON_CLASS = By.className("b-searchbox-button_legacy");
+    private static final By SEARCH_TEXT_CLASS = By.className("b-button__text");
 
     // Search result page
-    public static final By SEARCH_RESULT_LINK_CLASS = By.className("district_link");
-
-    private void screenShot() throws Exception {
-        final String FOLDER = "Screenshots/";
-        File scrFile = ((TakesScreenshot)Driver.driver).getScreenshotAs(OutputType.FILE);
-        Date date = new Date() ;
-        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss");
-        dateFormat.setTimeZone(TimeZone.getTimeZone("UTC"));
-        String fileName = FOLDER + dateFormat.format(date) + ".png";
-        try {
-            FileUtils.copyFile(scrFile, new File(fileName));
-        }
-        catch (Exception e) {
-            log.error("Screenshot save error " + e);
-        }
-    }
+    private static final By SEARCH_RESULT_LINK_CLASS = By.className("district_link");
 
     @Step("Before step 1")
     public void beforeStep1 () {
@@ -218,7 +196,7 @@ public class BookingTest {
             log.error("Failure search");
             throw new InterruptedException(WRONG_SEARCH_RESULT_EXEPTION);
         } else {
-            screenShot();
+            Util.TakeScreenshot();
             log.info("Search results Ok!");
         }
     }

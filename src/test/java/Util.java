@@ -3,13 +3,39 @@
  */
 import com.google.common.base.Predicate;
 import com.google.common.collect.Collections2;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
+import java.io.File;
+import java.text.SimpleDateFormat;
 import java.util.Collection;
+import java.util.Date;
 import java.util.List;
+import java.util.TimeZone;
 import java.util.regex.*;
 
 public class Util {
+    private final static Logger log = LoggerFactory.getLogger(Util.class);
+
+    public static void TakeScreenshot() throws Exception {
+        final String FOLDER = "Screenshots/";
+        File scrFile = ((TakesScreenshot)Driver.driver).getScreenshotAs(OutputType.FILE);
+        Date date = new Date() ;
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss");
+        dateFormat.setTimeZone(TimeZone.getTimeZone("UTC"));
+        String fileName = FOLDER + dateFormat.format(date) + ".png";
+        try {
+            FileUtils.copyFile(scrFile, new File(fileName));
+        }
+        catch (Exception e) {
+            log.error("Screenshot save error " + e);
+        }
+    }
+
     public static String GetLanguageHash (String data_title) {
         Pattern p = Pattern.compile("(?<=\\bdata-hash=\")[^\"]*");
         Matcher m = p.matcher(data_title);
