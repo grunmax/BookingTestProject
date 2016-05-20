@@ -44,4 +44,4 @@ gauge /specs/booking.spec
 ### Result
 Html result available in /reports/html-reports/index.html
 
-_Tested only with Chrome Webdriver_
+_Tested with Chrome and Firefox Webdriver_
